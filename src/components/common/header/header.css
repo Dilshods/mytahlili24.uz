@@ -1,0 +1,113 @@
+.paddingSmall {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logonew {
+  width: 100px;
+  height: 40px;
+  display: flex;
+}
+.news24 {
+  color: #07aeae;
+  font-size: 24px;
+  font-weight: 600;
+}
+.newslogo {
+  border-radius: 50%;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: red;
+  padding: 7px;
+}
+.head {
+  cursor: pointer;
+}
+.head .logo img {
+  width: 100%;
+  height: 70px;
+}
+.ad {
+  width: 50%;
+  height: 70px;
+}
+.ad img {
+  width: 100%;
+  height: 70px;
+}
+header {
+  background-color: #000;
+  color: #fff;
+}
+header li {
+  margin-right: 30px;
+  transition: 0.5s;
+}
+header li:hover {
+  color: crimson;
+  cursor: pointer;
+}
+header a {
+  color: #fff;
+}
+.barIcon {
+  font-size: 25px;
+  background: none;
+  color: #fff;
+  display: none;
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  .head .ad {
+    display: none;
+  }
+  header .icon {
+    display: none;
+  }
+  header .flex {
+    display: none;
+  }
+  .barIcon {
+    display: block;
+  }
+  header .navbar {
+    position: absolute;
+    display: block;
+    background-color: #fb4c35;
+    left: 0;
+    top: 21%;
+    transition: 0.5s;
+    width: 100%;
+    height: 45vh;
+    z-index: 5;
+    padding: 50px;
+  }
+  header .navbar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  header ul li {
+    margin-bottom: 30px;
+  }
+}
+
+/* ///// mobilni resorch */
+.mob__search-input:hover {
+  cursor: pointer;
+}
+
+.mob__search-input {
+  width: 150px;
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .logonew {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+}

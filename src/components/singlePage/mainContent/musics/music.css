@@ -1,0 +1,29 @@
+.photo .box {
+  margin-bottom: 30px;
+  margin-left: 2px;
+}
+.photo .text {
+  padding: 0 30px;
+}
+.photo .images {
+  width: 320px;
+  height: 220px;
+}
+.photo img {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+}
+.photo h1 {
+  font-size: 22px;
+  color: #000;
+}
+.photo h1:hover {
+  color: #16f702;
+}
+@media screen and (max-width: 768px) {
+  .photo img,
+  .photo .images {
+    height: 350px;
+  }
+}

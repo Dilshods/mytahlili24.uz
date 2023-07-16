@@ -1,0 +1,20 @@
+.error_content {
+  text-align: center;
+}
+.link__to__home {
+  margin: 3px 0;
+}
+.not__link {
+  color: blue;
+  font-weight: 600;
+  padding: 10px 17px;
+  margin-top: 10px;
+  border: 1px solid blue;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+.not__link:hover {
+  color: #fff;
+  background-color: blue;
+  border: none;
+}

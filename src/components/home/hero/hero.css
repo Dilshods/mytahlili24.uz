@@ -1,0 +1,154 @@
+.hero {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  border-bottom: 1px solid silver;
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+}
+.contaner__hero {
+  width: 80%;
+}
+
+.two__contener {
+  width: 100%;
+  border-radius: 10px;
+  margin: 40px 0;
+  background-color: aquamarine;
+}
+.bigcontant {
+  width: 100%;
+  display: flex;
+}
+@media screen and (max-width: 1000px) {
+  .bigcontant {
+    flex-direction: column;
+  }
+}
+
+.img__content {
+  width: 100%;
+  height: 100%;
+}
+.img__content img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.title__content {
+  margin: 20px 0 0 20px;
+  border-right: 1px solid silver;
+}
+.date_event {
+  margin: 10px 0px 10px 0px;
+  opacity: 0.8;
+  color: #000000;
+  font-size: 10px;
+  padding-left: 20px;
+  background: url("../../../../public/images.png") no-repeat center left;
+  background-size: contain;
+}
+.event_date {
+  font-size: 15px;
+  margin-left: 10px;
+  color: rgb(20, 20, 216);
+}
+.title__content h1 {
+  color: #000000;
+  font-size: 20px;
+}
+
+/* //// child content */
+
+.child__container_card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+}
+.child_other_content {
+  width: 49%;
+  display: flex;
+}
+.child_other_images {
+  width: 100%;
+  height: 150px;
+}
+.child_other_images img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.child_other_images a {
+  width: 100%;
+}
+
+.child_other_title {
+  margin: 7px 0 0 10px;
+  border-bottom: 1px solid silver;
+  width: 100%;
+}
+.child_other_title a {
+  font-weight: 600;
+  color: #000000;
+}
+
+.child_other_title label {
+  font-size: 15px;
+  color: rgb(20, 20, 216);
+}
+@media screen and (max-width: 768px) {
+  .child_other_content {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .child_other_images img {
+    width: 100%;
+  }
+}
+
+/* ////sidebar/// */
+
+.side__contant {
+  width: 20%;
+  margin-left: 15px;
+}
+@media screen and (max-width: 768px) {
+  .side__contant {
+    width: 100%;
+  }
+}
+.side__more {
+  margin: 40px 0 20px 0;
+}
+
+.side__more a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin-left: 10px;
+}
+.side__more a:hover {
+  color: #16f702;
+}
+.card_title-title {
+  border: 1px solid silver;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.card_title-title h4 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #000000;
+  margin: 0 0 15px 15px;
+}
+.card_title-title .date {
+  padding: 0px 0 0 15px;
+}
